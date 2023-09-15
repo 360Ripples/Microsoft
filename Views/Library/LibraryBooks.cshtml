@@ -1,0 +1,47 @@
+﻿@model IEnumerable<LibraryManagementSystemApp.Models.Library>
+
+
+@{
+    ViewData["Title"] = "LibraryBooks";
+}
+
+<h1>LibraryBooks</h1>
+
+<table class="table">
+   
+
+    <thead>
+        <tr>
+            <th>Library Name</th>
+            <th>City</th>
+            <th>Book ID</th>
+            <th>Book Name</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var library in Model)
+            {
+                    <tr>
+                        <td>@library.Name</td>
+                        <td>@library.City</td>
+
+                        <td></td>
+                        <td></td>
+                    </tr>
+                @foreach (var item in library.Books)
+                {
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>@item.Bookid</td>
+                                    <td>@item.Bookname</td>
+                                    <td>@item.Author</td>
+                                </tr>
+                }
+
+
+
+            }
+    </tbody>
+</table>

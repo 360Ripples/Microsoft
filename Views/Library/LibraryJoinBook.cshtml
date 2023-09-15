@@ -1,0 +1,53 @@
+﻿@model IEnumerable<LibraryManagementSystemApp.Models.Library>
+
+@{
+    ViewData["Title"] = "LibraryJoinBook";
+}
+
+<h1>LibraryJoinBook</h1>
+
+@using (Html.BeginForm("LibraryJoinBook", "Library", FormMethod.Get))
+{
+    @Html.TextBox("libraryName", null, new { placeholder = "Enter your value" })
+    @Html.TextBox("bookAuthor", null, new { placeholder = "Enter your value" })
+        <button type="submit">Submit</button>
+}
+
+
+
+
+<table class="table">
+
+
+    <thead>
+        <tr>
+            <th>Library Name</th>
+            <th>City</th>
+            <th>Book Name</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+    <tbody>
+       
+        @foreach (var library in Model)
+        {
+            @foreach (var item in library.Books)
+            {
+                               <tr>
+                                    <td>@library.Name</td>
+                                    <td>@library.City</td>
+                                    <td>@item.Bookname</td>
+                                    <td>@item.Author</td>
+                                    </tr>
+
+            }     
+
+
+        }
+        
+
+
+
+        
+    </tbody>
+</table>
