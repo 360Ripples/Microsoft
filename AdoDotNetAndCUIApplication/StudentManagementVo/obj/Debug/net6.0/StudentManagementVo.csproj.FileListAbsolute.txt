@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\bin\Debug\net6.0\StudentManagementVo.deps.json
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\bin\Debug\net6.0\StudentManagementVo.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\bin\Debug\net6.0\StudentManagementVo.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\StudentManagementVo.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\StudentManagementVo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\StudentManagementVo.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\StudentManagementVo.AssemblyInfo.cs
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\StudentManagementVo.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\StudentManagementVo.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\refint\StudentManagementVo.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\StudentManagementVo.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\StudentManagementVo\obj\Debug\net6.0\ref\StudentManagementVo.dll

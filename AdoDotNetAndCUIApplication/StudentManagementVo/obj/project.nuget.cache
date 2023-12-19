@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mWehX/hS6LleDuq9XYx/m/2u78Ng3sbeAs7DQRTFRSQ2khAmv2iyVvcadryMtHiz8Equj+Kf9619Xnqscq92iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,705 @@
+2022-11-29 19:21:53 Library Management System Application Started...
+2022-11-29 19:21:58 Fetch Book Method Started..
+2022-11-29 19:22:07 Fetching Book 2for
+2022-11-29 19:22:07 Book Id 2 fetched Successuly.
+2022-11-29 19:24:25 Library Management System Application Started...
+2022-11-29 19:24:27 Fetch Book Method Started..
+2022-11-29 19:24:29 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementDao.LibraryDao.BookDao.FetchBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryDao\BookDao.cs:line 80
+   at LibraryManagementBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 96
+2022-11-29 19:25:27 Library Management System Application Started...
+2022-11-29 19:25:30 Adding Book Detail...
+2022-11-29 19:25:52 Adding Book for LibraryManagementVo.BookVo
+2022-11-29 19:25:53 Adding Book trueresponse...
+2022-11-29 19:27:02 Fetch Book Method Started..
+2022-11-29 19:27:02 Book Id 2 fetched Successuly.
+2022-11-29 19:27:25 Library Management System Application Started...
+2022-11-29 19:27:37 Adding Book Detail...
+2022-11-29 19:27:56 Adding Book for LibraryManagementVo.BookVo
+2022-11-29 19:27:56 Error when adding book details..
+LibraryManagementDao.LibraryException.BookManagementException: ISBN Number Not Valid.Plz give the Valid one and proceed with Adding Book Details..
+   at LibraryManagementBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 68
+2022-11-29 19:28:14 Fetch Book Method Started..
+2022-11-29 19:28:15 Book Id 2 fetched Successuly.
+2022-12-03 17:59:33 Library Management System Application Started...
+2022-12-03 17:59:37 Fetch Book Method Started..
+2022-12-03 17:59:41 Book Id 3 fetched Successuly.
+2022-12-03 18:58:27 Library Management System Application Started...
+2022-12-03 18:59:11 Fetch Book Method Started..
+2022-12-03 18:59:15 Book Id 2 fetched Successuly.
+2022-12-03 19:00:17 Library Management System Application Started...
+2022-12-03 19:00:20 Fetch Book Method Started..
+2022-12-03 19:00:24 Book Id 3 fetched Successuly.
+2022-12-03 19:14:57 Library Management System Application Started...
+2022-12-03 19:14:59 Adding Book Detail ...
+2022-12-03 19:15:15 Error when adding book details..
+LibraryManagementDao.LibraryException.BookManagementException: ISBN Number Not Valid.Plz give the Valid one and proceed with Adding Book Details..
+   at LibraryManagementBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 68
+2022-12-03 19:15:32 Adding Book Detail ...
+2022-12-03 19:15:53 Error when adding book details..
+LibraryManagementDao.LibraryException.BookManagementException: Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (3).
+The statement has been terminated.
+   at LibraryManagementDao.LibraryDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryDao\BookDao.cs:line 44
+   at LibraryManagementBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 73
+2022-12-03 19:16:02 Adding Book Detail ...
+2022-12-03 19:16:13 Adding Book for LibraryManagementVo.BookVo
+2022-12-03 19:16:13 Adding Book trueresponse...
+2022-12-03 19:19:41 Adding Book Detail ...
+2022-12-03 19:25:02 Adding Book for LibraryManagementVo.BookVo
+2022-12-03 19:25:02 Adding Book trueresponse...
+2022-12-03 19:26:25 Fetch Book Method Started..
+2022-12-03 19:26:29 Book Id 4 fetched Successuly.
+2022-12-03 19:38:53 Library Management System Application Started...
+2022-12-03 19:38:54 Fetch Book Method Started..
+2022-12-03 19:38:57 Book Id 4 fetched Successuly.
+2022-12-04 13:16:23 Library Management System Application Started...
+2022-12-04 13:16:53 Library Management System Application Started...
+2022-12-04 13:16:56 Fetch Book Method Started..
+2022-12-04 13:16:58 Book Id 2 fetched Successuly.
+2022-12-04 13:17:04 Fetch Book Method Started..
+2022-12-04 13:17:15 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementDao.LibraryDao.BookDao.FetchBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryDao\BookDao.cs:line 80
+   at LibraryManagementBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 97
+2022-12-04 13:17:19 Fetch Book Method Started..
+2022-12-04 13:17:22 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementDao.LibraryDao.BookDao.FetchBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryDao\BookDao.cs:line 80
+   at LibraryManagementBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 97
+2022-12-04 13:17:26 Adding Book Detail ...
+2022-12-04 13:17:57 Adding Book trueresponse...
+2022-12-04 13:18:05 Adding Book Detail ...
+2022-12-04 13:18:17 Error when adding book details..
+LibraryManagementDao.LibraryException.BookManagementException: Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at LibraryManagementDao.LibraryDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryDao\BookDao.cs:line 44
+   at LibraryManagementBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 73
+2022-12-04 13:18:24 Fetch Book Method Started..
+2022-12-04 13:18:30 Book Id 2 fetched Successuly.
+2022-12-04 13:19:59 Library Management System Application Started...
+2022-12-04 13:20:01 Fetch Book Method Started..
+2022-12-04 13:20:02 Book Id 2 fetched Successuly.
+2022-12-04 13:20:07 Adding Book Detail ...
+2022-12-04 13:20:29 Error when adding book details..
+LibraryManagementDao.LibraryException.BookManagementException: ISBN Number Not Valid.Plz give the Valid one and proceed with Adding Book Details..
+   at LibraryManagementBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 68
+2022-12-04 13:20:38 Fetch Book Method Started..
+2022-12-04 13:32:48 Library Management System Application Started...
+2022-12-04 13:32:51 Adding Book Detail ...
+2022-12-04 13:33:17 Book Added for BookVo:8 spring saiguru 1234567891
+2022-12-04 13:33:18 Adding Book trueresponse...
+2022-12-04 13:34:39 Library Management System Application Started...
+2022-12-04 13:34:40 Adding Book Detail ...
+2022-12-04 13:34:59 Book Added for [BookVo:9 react kv 1234567891]
+2022-12-04 13:35:00 Adding Book trueresponse...
+2022-12-04 13:37:00 Library Management System Application Started...
+2022-12-04 13:37:02 Adding Book Detail ...
+2022-12-04 13:37:17 Book Added for [BookVo:Book ID:10 Book Name:js Author Name:joe ISBN NUMBER:1234567891]
+2022-12-04 13:37:17 Adding Book trueresponse...
+2022-12-04 15:00:58 Library Management System Application Started...
+2022-12-04 15:01:00 Fetch Book Method Started..
+2022-12-04 15:01:03 Book Id 2 fetched Successuly.
+2022-12-06 11:05:44 Library Management System Application Started...
+2022-12-06 11:05:46 Fetch Book Method Started..
+2022-12-06 11:05:51 Book Id 3 fetched Successuly.
+2022-12-06 11:05:57 Adding Book Detail ...
+2022-12-21 14:20:26 Library Management System Application Started...
+2022-12-21 14:21:47 Library Management System Application Started...
+2022-12-21 14:23:17 Library Management System Application Started...
+2022-12-21 14:23:20 Fetch Book Method Started..
+2022-12-21 14:23:36 Library Management System Application Started...
+2022-12-21 14:23:39 Fetch Book Method Started..
+2022-12-21 14:23:42 Book Id 12 fetched Successuly.
+2022-12-21 14:23:52 Fetch Book Method Started..
+2022-12-21 14:23:54 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementDao.LibraryAdoDao.BookDao.FetchBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 79
+   at LibraryManagementBo.LibraryBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 96
+2023-02-01 11:14:57 Library Management System Application Started...
+2023-02-01 11:15:02 Fetch Book Method Started..
+2023-02-01 11:15:06 Book Id 2 fetched Successuly.
+2023-02-28 14:56:33 Library Management System Application Started...
+2023-02-28 14:56:39 Fetch Book Method Started..
+2023-02-28 14:56:43 Book Id 12 fetched Successuly.
+2023-03-02 13:13:25 Library Management System Application Started...
+2023-03-28 09:21:50 Library Management System Application Started...
+2023-03-28 09:21:55 Fetch Book Method Started..
+2023-03-28 09:21:58 Book Id 1 fetched Successuly.
+2023-03-28 09:33:16 Library Management System Application Started...
+2023-03-28 09:33:19 Adding Book Detail ...
+2023-03-28 09:33:29 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567890]
+2023-03-28 09:33:29 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: ISBN Number Not Valid.Plz give the Valid one and proceed with Adding Book Details..
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 71
+2023-03-28 09:54:02 Library Management System Application Started...
+2023-03-28 09:54:05 Fetch Book Method Started..
+2023-03-28 09:54:07 Book Id 2 fetched Successuly.
+2023-03-28 11:39:42 Library Management System Application Started...
+2023-03-28 11:41:37 Adding Book Detail ...
+2023-03-28 11:42:19 Adding a Book [BookVo:Book ID:34 Book Name:CN Author Name:abc ISBN NUMBER:1234567891]
+2023-03-28 11:42:19 Valid ISBN Number for the given BookId 34
+2023-03-28 11:42:19 Book Added for [BookVo:Book ID:34 Book Name:CN Author Name:abc ISBN NUMBER:1234567891]
+2023-03-28 11:42:20 Adding Book trueresponse...
+2023-03-28 11:52:32 Adding Book Detail ...
+2023-03-28 11:52:52 Adding a Book [BookVo:Book ID:1 Book Name:abc Author Name:sakthi ISBN NUMBER:1234567890]
+2023-03-28 11:52:52 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: ISBN Number Not Valid.Plz give the Valid one and proceed with Adding Book Details..
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 71
+2023-03-28 11:53:13 Adding Book Detail ...
+2023-03-28 11:53:24 Adding a Book [BookVo:Book ID:1 Book Name:avc Author Name:sd ISBN NUMBER:1234567891]
+2023-03-28 11:53:24 Valid ISBN Number for the given BookId 1
+2023-03-28 11:53:24 Book Added for [BookVo:Book ID:1 Book Name:avc Author Name:sd ISBN NUMBER:1234567891]
+2023-03-28 11:53:25 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:652a843d-d248-465b-9cd9-d51fa1d19e5a
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-28 12:07:41 Library Management System Application Started...
+2023-03-28 12:07:43 Adding Book Detail ...
+2023-03-28 12:07:56 Adding a Book [BookVo:Book ID:35 Book Name:asd Author Name:cde ISBN NUMBER:1234567891]
+2023-03-28 12:07:56 Valid ISBN Number for the given BookId 35
+2023-03-28 12:07:56 Book Added for [BookVo:Book ID:35 Book Name:asd Author Name:cde ISBN NUMBER:1234567891]
+2023-03-28 12:07:56 Adding Book trueresponse...
+2023-03-28 12:08:08 Adding Book Detail ...
+2023-03-28 12:08:16 Adding a Book [BookVo:Book ID:1 Book Name:asd Author Name:asd ISBN NUMBER:1234567891]
+2023-03-28 12:08:16 Valid ISBN Number for the given BookId 1
+2023-03-28 12:08:16 Book Added for [BookVo:Book ID:1 Book Name:asd Author Name:asd ISBN NUMBER:1234567891]
+2023-03-28 12:08:16 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:57d033c2-325b-4144-bccb-ddb9981636a8
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-28 12:09:41 Library Management System Application Started...
+2023-03-28 12:09:43 Adding Book Detail ...
+2023-03-28 12:09:50 Adding a Book [BookVo:Book ID:1 Book Name:asd Author Name:asd ISBN NUMBER:1234567891]
+2023-03-28 12:09:50 Valid ISBN Number for the given BookId 1
+2023-03-28 12:09:50 Book Added for [BookVo:Book ID:1 Book Name:asd Author Name:asd ISBN NUMBER:1234567891]
+2023-03-28 12:09:51 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:602e6111-ad44-4502-8bf3-2423a5cf10cf
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-28 12:12:47 Library Management System Application Started...
+2023-03-28 12:12:50 Adding Book Detail ...
+2023-03-28 12:12:59 Adding a Book [BookVo:Book ID:1 Book Name:asd Author Name:asd ISBN NUMBER:1234567891]
+2023-03-28 12:12:59 Valid ISBN Number for the given BookId 1
+2023-03-28 12:12:59 Book Added for [BookVo:Book ID:1 Book Name:asd Author Name:asd ISBN NUMBER:1234567891]
+2023-03-28 12:13:00 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:7bc950bf-9f70-46e4-a45d-5ae5d86c5ecf
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-28 12:21:29 Library Management System Application Started...
+2023-03-28 12:21:52 Library Management System Application Started...
+2023-03-28 12:24:30 Library Management System Application Started...
+2023-03-28 12:24:32 Adding Book Detail ...
+2023-03-28 12:24:41 Adding a Book [BookVo:Book ID:1 Book Name:asd Author Name:ase ISBN NUMBER:1234567891]
+2023-03-28 12:24:41 Valid ISBN Number for the given BookId 1
+2023-03-28 12:24:41 Book Added for [BookVo:Book ID:1 Book Name:asd Author Name:ase ISBN NUMBER:1234567891]
+2023-03-28 12:24:42 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:92d3e907-843d-4741-b3d2-9f06e7cf8487
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-28 12:26:48 Library Management System Application Started...
+2023-03-28 12:26:49 Adding Book Detail ...
+2023-03-28 12:26:57 Adding a Book [BookVo:Book ID:1 Book Name:aa Author Name:ss ISBN NUMBER:12345678]
+2023-03-28 12:27:29 Library Management System Application Started...
+2023-03-28 12:27:32 Adding Book Detail ...
+2023-03-28 12:27:39 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:12345678]
+2023-03-30 09:19:41 Library Management System Application Started...
+2023-03-30 09:19:45 Fetch Book Method Started..
+2023-03-30 09:19:49 Book Id 2 fetched Successuly.
+2023-03-30 09:20:00 Adding Book Detail ...
+2023-03-30 09:20:18 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-03-30 09:20:18 Valid ISBN Number for the given BookId 1
+2023-03-30 09:20:18 Book Added for [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-03-30 09:20:18 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:3f35fd0d-9abe-4839-a1b9-0e689d983a54
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-30 09:21:43 Library Management System Application Started...
+2023-03-30 09:22:38 Library Management System Application Started...
+2023-03-30 09:22:39 Adding Book Detail ...
+2023-03-30 09:22:46 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:12345678901]
+2023-03-30 09:22:46 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:12345678901]
+2023-03-30 09:22:46 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: ISBN Number Not Valid.Plz give the Valid one and proceed with Adding Book Details..
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 71
+2023-03-30 09:22:46 Error when Adding a Book 1
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding book details..plz reach out administrator.
+ ---> LibraryManagementDao.LibraryException.BookManagementException: ISBN Number Not Valid.Plz give the Valid one and proceed with Adding Book Details..
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 71
+   --- End of inner exception stack trace ---
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 82
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 29
+2023-03-30 09:22:46 Response Object Returning..LibraryManagementBo.LibraryService.ResponseObject
+2023-03-30 09:26:26 Library Management System Application Started...
+2023-03-30 09:26:28 Adding Book Detail ...
+2023-03-30 09:26:35 Adding a Book [BookVo:Book ID:1 Book Name:sd Author Name:df ISBN NUMBER:1234567891]
+2023-03-30 09:26:35 Adding a Book [BookVo:Book ID:1 Book Name:sd Author Name:df ISBN NUMBER:1234567891]
+2023-03-30 09:26:35 Valid ISBN Number for the given BookId 1
+2023-03-30 09:26:35 Book Added for [BookVo:Book ID:1 Book Name:sd Author Name:df ISBN NUMBER:1234567891]
+2023-03-30 09:26:36 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:a746ad38-702f-40ef-89cd-35f67d5a2ecb
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-30 09:26:36 Error when Adding a Book 1
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding book details..plz reach out administrator.
+ ---> LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:a746ad38-702f-40ef-89cd-35f67d5a2ecb
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+   --- End of inner exception stack trace ---
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 82
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 29
+2023-03-30 09:26:36 Response Object Returning..LibraryManagementBo.LibraryService.ResponseObject
+2023-03-30 09:34:09 Library Management System Application Started...
+2023-03-30 09:34:10 Adding Book Detail ...
+2023-03-30 09:34:19 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-03-30 09:34:19 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-03-30 09:34:19 Valid ISBN Number for the given BookId 1
+2023-03-30 09:34:19 Book Added for [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-03-30 09:34:20 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:cac04631-a700-4277-aca8-3e07fb460e73
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-30 09:34:20 Error when Adding a Book 1
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding book details..plz reach out administrator.
+ ---> LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:cac04631-a700-4277-aca8-3e07fb460e73
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+   --- End of inner exception stack trace ---
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 82
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 29
+2023-03-30 09:34:20 Response Object Returning..LibraryManagementBo.LibraryService.ResponseObject
+2023-03-30 09:35:50 Library Management System Application Started...
+2023-03-30 09:35:52 Adding Book Detail ...
+2023-03-30 09:35:58 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:asd ISBN NUMBER:1234567891]
+2023-03-30 09:35:58 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:asd ISBN NUMBER:1234567891]
+2023-03-30 09:35:58 Valid ISBN Number for the given BookId 1
+2023-03-30 09:35:58 Book Added for [BookVo:Book ID:1 Book Name:as Author Name:asd ISBN NUMBER:1234567891]
+2023-03-30 09:35:59 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:f6e7645c-7ce3-464e-b738-e4c7298ca872
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-30 09:35:59 Error when Adding a Book 1
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding book details..plz reach out administrator.
+ ---> LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:f6e7645c-7ce3-464e-b738-e4c7298ca872
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+   --- End of inner exception stack trace ---
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 82
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 29
+2023-03-30 09:35:59 Response Object Returning..LibraryManagementBo.LibraryService.ResponseObject
+2023-03-30 10:09:11 Library Management System Application Started...
+2023-03-30 10:09:14 Fetch Book Method Started..
+2023-03-30 10:09:15 Book Id 2 fetched Successuly.
+2023-03-30 10:09:19 Fetch Book Method Started..
+2023-03-30 10:09:25 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementDao.LibraryAdoDao.BookDao.FetchBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 75
+   at LibraryManagementBo.LibraryBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 96
+2023-03-30 10:10:06 Library Management System Application Started...
+2023-03-30 10:10:08 Fetch Book Method Started..
+2023-03-30 10:10:11 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementDao.LibraryAdoDao.BookDao.FetchBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 75
+   at LibraryManagementBo.LibraryBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 96
+2023-03-30 10:51:50 Library Management System Application Started...
+2023-03-30 10:51:52 Adding Book Detail ...
+2023-03-30 10:52:06 Adding a Book [BookVo:Book ID:1 Book Name:dfg Author Name:cfr ISBN NUMBER:1234567891]
+2023-03-30 10:52:06 Adding a Book [BookVo:Book ID:1 Book Name:dfg Author Name:cfr ISBN NUMBER:1234567891]
+2023-03-30 10:52:06 Valid ISBN Number for the given BookId 1
+2023-03-30 10:52:06 Book Added for [BookVo:Book ID:1 Book Name:dfg Author Name:cfr ISBN NUMBER:1234567891]
+2023-03-30 10:52:07 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+ ---> System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_book'. Cannot insert duplicate key in object 'dbo.book'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 36
+ClientConnectionId:61a2b22e-5b5a-4ab7-be0f-03cd159ddb37
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 44
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-30 10:52:07 Error when Adding a Book 1
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 82
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 29
+2023-03-30 10:52:07 Response Object ReturningLibraryManagementBo.LibraryService.ResponseObject
+2023-03-30 10:52:56 Library Management System Application Started...
+2023-03-30 10:53:11 Adding Book Detail ...
+2023-03-30 10:53:32 Adding a Book [BookVo:Book ID:40 Book Name:Java Author Name:Bala ISBN NUMBER:1234567891]
+2023-03-30 10:53:32 Adding a Book [BookVo:Book ID:40 Book Name:Java Author Name:Bala ISBN NUMBER:1234567891]
+2023-03-30 10:53:32 Valid ISBN Number for the given BookId 40
+2023-03-30 10:53:32 Book Added for [BookVo:Book ID:40 Book Name:Java Author Name:Bala ISBN NUMBER:1234567891]
+2023-03-30 10:53:32 Adding Book trueresponse...
+2023-03-30 10:53:32 Adding a Book [BookVo:Book ID:40 Book Name:Java Author Name:Bala ISBN NUMBER:1234567891]
+2023-03-30 10:53:32 Response Object ReturningLibraryManagementBo.LibraryService.ResponseObject
+2023-03-31 11:56:10 Library Management System Application Started...
+2023-03-31 11:58:44 Library Management System Application Started...
+2023-03-31 11:58:46 Adding Book Detail ...
+2023-03-31 11:58:54 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234]
+2023-03-31 11:58:54 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234]
+2023-03-31 11:59:26 Library Management System Application Started...
+2023-03-31 11:59:28 Adding Book Detail ...
+2023-03-31 11:59:36 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-03-31 11:59:36 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-03-31 11:59:36 Valid ISBN Number for the given BookId 1
+2023-03-31 11:59:36 Book Added for [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-03-31 11:59:38 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+ ---> System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'query'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 37
+ClientConnectionId:98cce8dd-0415-4080-aec3-cabf485ea2ef
+Error Number:2812,State:62,Class:16
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 45
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-31 11:59:38 Error when Adding a Book 1
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 82
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 29
+2023-03-31 11:59:38 Response Object ReturningLibraryManagementBo.LibraryService.ResponseObject
+2023-03-31 11:59:45 Adding Book Detail ...
+2023-03-31 12:00:01 Adding a Book [BookVo:Book ID:46 Book Name:spring Author Name:malathi ISBN NUMBER:1234567891]
+2023-03-31 12:00:01 Adding a Book [BookVo:Book ID:46 Book Name:spring Author Name:malathi ISBN NUMBER:1234567891]
+2023-03-31 12:00:01 Valid ISBN Number for the given BookId 46
+2023-03-31 12:00:01 Book Added for [BookVo:Book ID:46 Book Name:spring Author Name:malathi ISBN NUMBER:1234567891]
+2023-03-31 12:00:01 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+ ---> System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'query'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 37
+ClientConnectionId:98cce8dd-0415-4080-aec3-cabf485ea2ef
+Error Number:2812,State:62,Class:16
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 45
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-31 12:00:01 Error when Adding a Book 46
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 82
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 29
+2023-03-31 12:00:01 Response Object ReturningLibraryManagementBo.LibraryService.ResponseObject
+2023-03-31 12:04:30 Library Management System Application Started...
+2023-03-31 12:04:32 Adding Book Detail ...
+2023-03-31 12:04:48 Adding a Book [BookVo:Book ID:20 Book Name:spring Author Name:shanmu ISBN NUMBER:1234567891]
+2023-03-31 12:04:48 Adding a Book [BookVo:Book ID:20 Book Name:spring Author Name:shanmu ISBN NUMBER:1234567891]
+2023-03-31 12:04:48 Valid ISBN Number for the given BookId 20
+2023-03-31 12:04:48 Book Added for [BookVo:Book ID:20 Book Name:spring Author Name:shanmu ISBN NUMBER:1234567891]
+2023-03-31 12:04:48 Error when adding  book details..
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+ ---> System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'query'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 37
+ClientConnectionId:3059731c-1f4e-43f5-9729-5f3236d528f5
+Error Number:2812,State:62,Class:16
+   --- End of inner exception stack trace ---
+   at LibraryManagementDao.LibraryAdoDao.BookDao.AddBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 45
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 74
+2023-03-31 12:04:48 Error when Adding a Book 20
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 82
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 29
+2023-03-31 12:04:48 Response Object ReturningLibraryManagementBo.LibraryService.ResponseObject
+2023-03-31 12:06:33 Library Management System Application Started...
+2023-03-31 12:06:33 Adding Book Detail ...
+2023-03-31 12:06:46 Adding a Book [BookVo:Book ID:20 Book Name:spring Author Name:shanmu ISBN NUMBER:1234567891]
+2023-03-31 12:06:46 Adding a Book [BookVo:Book ID:20 Book Name:spring Author Name:shanmu ISBN NUMBER:1234567891]
+2023-03-31 12:06:46 Valid ISBN Number for the given BookId 20
+2023-03-31 12:06:46 Book Added for [BookVo:Book ID:20 Book Name:spring Author Name:shanmu ISBN NUMBER:1234567891]
+2023-03-31 12:06:46 Adding Book trueresponse...
+2023-03-31 12:06:46 Adding a Book [BookVo:Book ID:20 Book Name:spring Author Name:shanmu ISBN NUMBER:1234567891]
+2023-03-31 12:06:46 Response Object ReturningLibraryManagementBo.LibraryService.ResponseObject
+2023-03-31 12:20:27 Library Management System Application Started...
+2023-03-31 12:20:28 Fetch Book Method Started..
+2023-03-31 12:20:30 Book Id 2 fetched Successuly.
+2023-03-31 12:20:35 Fetch Book Method Started..
+2023-03-31 12:20:38 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementDao.LibraryAdoDao.BookDao.FetchBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 74
+   at LibraryManagementBo.LibraryBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 96
+2023-03-31 12:20:47 Library Management System Application Started...
+2023-03-31 12:20:49 Fetch Book Method Started..
+2023-03-31 12:20:51 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementDao.LibraryAdoDao.BookDao.FetchBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementDao\LibraryAdoDao\BookDao.cs:line 74
+   at LibraryManagementBo.LibraryBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 96
+2023-03-31 13:05:40 Library Management System Application Started...
+2023-03-31 13:06:30 Library Management System Application Started...
+2023-03-31 13:06:40 Fetch Books Method Started..
+2023-03-31 13:06:40 Books fetched Successuly.
+2023-03-31 13:34:20 Library Management System Application Started...
+2023-03-31 13:36:18 Library Management System Application Started...
+2023-03-31 13:37:00 Fetch Books Method Started..
+2023-03-31 13:37:01 Books fetched Successuly.
+2023-03-31 13:39:08 Library Management System Application Started...
+2023-03-31 13:40:50 Library Management System Application Started...
+2023-03-31 13:40:52 Fetch Books Method Started..
+2023-03-31 13:40:53 Books fetched Successuly.
+2023-03-31 13:41:38 Library Management System Application Started...
+2023-03-31 13:41:39 Fetch Books Method Started..
+2023-03-31 13:41:40 Books fetched Successuly.
+2023-03-31 13:44:46 Library Management System Application Started...
+2023-03-31 13:44:46 Fetch Books Method Started..
+2023-03-31 13:44:47 Books fetched Successuly.
+2023-03-31 13:45:24 Library Management System Application Started...
+2023-03-31 13:45:25 Fetch Books Method Started..
+2023-03-31 13:45:25 Books fetched Successuly.
+2023-03-31 13:47:44 Library Management System Application Started...
+2023-03-31 13:47:45 Fetch Books Method Started..
+2023-03-31 13:47:45 Books fetched Successuly.
+2023-03-31 13:50:40 Library Management System Application Started...
+2023-03-31 13:50:41 Fetch Books Method Started..
+2023-03-31 13:50:42 Books fetched Successuly.
+2023-03-31 13:52:04 Library Management System Application Started...
+2023-03-31 13:52:05 Fetch Books Method Started..
+2023-03-31 13:52:06 Books fetched Successuly.
+2023-03-31 13:55:07 Library Management System Application Started...
+2023-03-31 13:55:09 Fetch Books Method Started..
+2023-03-31 13:55:10 Books fetched Successuly.
+2023-03-31 13:57:01 Library Management System Application Started...
+2023-03-31 13:57:03 Fetch Books Method Started..
+2023-03-31 13:57:03 Books fetched Successuly.
+2023-03-31 13:58:59 Library Management System Application Started...
+2023-03-31 13:59:38 Library Management System Application Started...
+2023-03-31 13:59:39 Fetch Books Method Started..
+2023-03-31 13:59:39 Books fetched Successuly.
+2023-03-31 14:06:47 Library Management System Application Started...
+2023-03-31 14:06:49 Fetch Books Method Started..
+2023-03-31 14:06:49 Books fetched Successuly.
+2023-03-31 14:07:06 Library Management System Application Started...
+2023-03-31 14:07:07 Fetch Book Method Started..
+2023-03-31 14:07:08 Book Id 2 fetched Successuly.
+2023-03-31 14:11:54 Library Management System Application Started...
+2023-03-31 14:11:55 Fetch Books Method Started..
+2023-03-31 14:11:56 Books fetched Successuly.
+2023-03-31 14:17:18 Library Management System Application Started...
+2023-03-31 14:17:19 Fetch Book Method Started..
+2023-03-31 14:17:20 Book Id 2 fetched Successuly.
+2023-03-31 14:17:25 Fetch Books Method Started..
+2023-03-31 14:17:25 Books fetched Successuly.
+2023-03-31 14:17:39 Library Management System Application Started...
+2023-03-31 14:17:40 Fetch Books Method Started..
+2023-03-31 14:17:41 Books fetched Successuly.
+2023-03-31 14:23:44 Library Management System Application Started...
+2023-03-31 14:23:45 Fetch Books Method Started..
+2023-03-31 14:23:46 Books fetched Successuly.
+2023-04-01 12:06:24 Library Management System Application Started...
+2023-04-01 12:07:57 Library Management System Application Started...
+2023-04-01 12:25:50 Library Management System Application Started...
+2023-04-01 12:25:52 Fetch Book Method Started..
+2023-04-01 12:25:53 Book Id 2 fetched Successuly.
+2023-04-01 12:30:52 Library Management System Application Started...
+2023-04-01 12:32:35 Library Management System Application Started...
+2023-04-01 12:34:28 Library Management System Application Started...
+2023-04-01 12:34:30 Fetch Books Method Started..
+2023-04-01 12:34:30 Books fetched Successuly.
+2023-04-01 19:51:44 Library Management System Application Started...
+2023-04-01 19:51:45 Adding Book Detail ...
+2023-04-01 19:51:52 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-04-01 19:51:52 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:as ISBN NUMBER:1234567891]
+2023-04-01 19:51:52 Valid ISBN Number for the given id 1
+2023-04-01 19:51:55 Error when Adding a Book 1
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 81
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 31
+2023-04-01 19:54:55 Library Management System Application Started...
+2023-04-01 19:55:49 Adding Book Detail ...
+2023-04-01 19:55:57 Adding a Book [BookVo:Book ID:1 Book Name:as Author Name:ad ISBN NUMBER:1234567891]
+2023-04-01 19:55:57 Valid ISBN Number for the given id 1
+2023-04-01 19:55:58 Error when Adding a Book 1
+LibraryManagementDao.LibraryException.BookManagementException: Error when adding Book Please Reach out Admin
+   at LibraryManagementBo.LibraryBo.BookBo.InsertBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 81
+   at LibraryManagementBo.LibraryService.BookService.SaveBook(BookVo vo) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 31
+2023-04-01 19:56:39 Fetch Book Method Started..
+2023-04-01 19:56:41 Book Id 2 fetched Successuly.
+2023-04-01 19:56:59 Fetch Book Method Started..
+2023-04-01 19:57:01 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementBo.LibraryBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 99
+   at LibraryManagementBo.LibraryService.BookService.GetBookById(Int32 Id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 57
+2023-04-01 19:57:14 Library Management System Application Started...
+2023-04-01 19:57:15 Fetch Book Method Started..
+2023-04-01 19:57:18 Error when fetching Book details..
+LibraryManagementDao.LibraryException.BookNotFoundException: fetching book id not found...
+   at LibraryManagementBo.LibraryBo.BookBo.GetBook(Int32 id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryBo\BookBo.cs:line 99
+   at LibraryManagementBo.LibraryService.BookService.GetBookById(Int32 Id) in C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\LibraryService\BookService.cs:line 57
+2023-04-07 11:21:54 Library Management System Application Started...

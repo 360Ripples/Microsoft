@@ -1,0 +1,17 @@
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\bin\Debug\net6.0\LibraryManagementSystemMiddleTier.deps.json
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\bin\Debug\net6.0\LibraryManagementSystemMiddleTier.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\bin\Debug\net6.0\LibraryManagementSystemMiddleTier.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\bin\Debug\net6.0\LibraryManagementVo.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\bin\Debug\net6.0\LibraryManagementVo.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\LibraryManagementSystemMiddleTier.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\LibraryManagementSystemMiddleTier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\LibraryManagementSystemMiddleTier.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\LibraryManagementSystemMiddleTier.AssemblyInfo.cs
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\LibraryManagementSystemMiddleTier.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\LibraryManagementSystemMiddleTier.csproj.CopyComplete
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\LibraryManagementSystemMiddleTier.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\refint\LibraryManagementSystemMiddleTier.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\LibraryManagementSystemMiddleTier.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\obj\Debug\net6.0\ref\LibraryManagementSystemMiddleTier.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\bin\Debug\net6.0\CommonUtility.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementSystemMiddleTier\bin\Debug\net6.0\CommonUtility.pdb

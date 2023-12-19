@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\bin\Debug\net6.0\CommonUtility.deps.json
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\bin\Debug\net6.0\CommonUtility.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\bin\Debug\net6.0\CommonUtility.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\CommonUtility.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\CommonUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\CommonUtility.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\CommonUtility.AssemblyInfo.cs
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\CommonUtility.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\CommonUtility.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\refint\CommonUtility.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\CommonUtility.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\ref\CommonUtility.dll

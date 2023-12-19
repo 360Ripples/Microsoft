@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\bin\Debug\net6.0\LibraryManagementVo.deps.json
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\bin\Debug\net6.0\LibraryManagementVo.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\bin\Debug\net6.0\LibraryManagementVo.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\LibraryManagementVo.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\LibraryManagementVo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\LibraryManagementVo.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\LibraryManagementVo.AssemblyInfo.cs
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\LibraryManagementVo.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\LibraryManagementVo.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\refint\LibraryManagementVo.dll
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\LibraryManagementVo.pdb
+C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementVo\obj\Debug\net6.0\ref\LibraryManagementVo.dll
