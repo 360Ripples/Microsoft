@@ -8313,11 +8313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementDao\\LibraryManagementDao.csproj",
+      "projectUniqueName": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementDao\\LibraryManagementDao.csproj",
       "projectName": "LibraryManagementDao",
-      "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementDao\\LibraryManagementDao.csproj",
+      "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementDao\\LibraryManagementDao.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementDao\\obj\\",
+      "outputPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementDao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8334,11 +8334,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\CommonUtility\\CommonUtility.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\CommonUtility\\CommonUtility.csproj"
+            "D:\\Repository\\AdoDotNetAndCUIApplication\\CommonUtility\\CommonUtility.csproj": {
+              "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\CommonUtility\\CommonUtility.csproj"
             },
-            "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementVo\\LibraryManagementVo.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementVo\\LibraryManagementVo.csproj"
+            "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementVo\\LibraryManagementVo.csproj": {
+              "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementVo\\LibraryManagementVo.csproj"
             }
           }
         }
@@ -8389,20 +8389,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

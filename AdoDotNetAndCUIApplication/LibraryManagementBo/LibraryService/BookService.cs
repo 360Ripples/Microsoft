@@ -28,7 +28,7 @@ namespace LibraryManagementBo.LibraryService
             try
             {
                 
-                bool flag = bo.InsertBook(vo);
+                bool flag = bo.InsertBook(vo);//false
                 Log.Information("Adding a Book {Vo}", vo);
                 if (flag)
                 {
@@ -47,8 +47,8 @@ namespace LibraryManagementBo.LibraryService
 
                 res.SetFailureMessage(e.Message);
             }
-
-            return res;
+           // Log.Information(res);
+            return res;//book added suucessfully
         }
         public ResponseObject GetBookById(int Id)
         {

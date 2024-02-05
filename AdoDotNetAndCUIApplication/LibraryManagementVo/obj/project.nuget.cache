@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kj8R7oWkzknl9CaTiPqI1I/seMguaUt9WojySjfnr5zf+25bNmTxwhBp5yJIThjf8+JYRc2XB6GSX0XgSl1eXA==",
+  "dgSpecHash": "Zryf+zidfosuV2O7wxNSy3w4dY/itWMG5wNZQtAmn+v4Gk+sNVRPWrUCqkEj0k5qgS/0Cih6JGjFF8P9vvJcrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementVo\\LibraryManagementVo.csproj",
+  "projectFilePath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementVo\\LibraryManagementVo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\abp\\8.0.0\\abp.8.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
@@ -125,10 +125,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\timezoneconverter\\6.0.1\\timezoneconverter.6.0.1.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\timezoneconverter\\6.0.1\\timezoneconverter.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }

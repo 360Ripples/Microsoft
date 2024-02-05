@@ -2886,7 +2886,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj": "1.0.0",
+          "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj": "1.0.0",
           "LibraryManagementDao": "1.0.0",
           "Serilog.AspNetCore": "6.0.1"
         },
@@ -9073,11 +9073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\DemoWebApi\\DemoWebApi.csproj",
+      "projectUniqueName": "D:\\Repository\\AdoDotNetAndCUIApplication\\DemoWebApi\\DemoWebApi.csproj",
       "projectName": "DemoWebApi",
-      "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\DemoWebApi\\DemoWebApi.csproj",
+      "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\DemoWebApi\\DemoWebApi.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\DemoWebApi\\obj\\",
+      "outputPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\DemoWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9094,8 +9094,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementBo\\LibraryManagementBo.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementBo\\LibraryManagementBo.csproj"
+            "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementBo\\LibraryManagementBo.csproj": {
+              "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementBo\\LibraryManagementBo.csproj"
             }
           }
         }
@@ -9162,8 +9162,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj",
+      "message": "Unable to find project 'D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj",
       "targetGraphs": [
         "net7.0"
       ]

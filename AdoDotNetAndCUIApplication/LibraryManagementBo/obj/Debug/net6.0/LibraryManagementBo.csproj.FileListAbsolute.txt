@@ -17,3 +17,6 @@ C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\obj\Debug
 C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\obj\Debug\net6.0\ref\LibraryManagementBo.dll
 C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\bin\Debug\net6.0\LibraryManagementDao.dll
 C:\Users\DELL\source\repos\LibraryManagementSystem\LibraryManagementBo\bin\Debug\net6.0\LibraryManagementDao.pdb
+D:\Repository\AdoDotNetAndCUIApplication\LibraryManagementBo\obj\Debug\net6.0\LibraryManagementBo.dll
+D:\Repository\AdoDotNetAndCUIApplication\LibraryManagementBo\obj\Debug\net6.0\refint\LibraryManagementBo.dll
+D:\Repository\AdoDotNetAndCUIApplication\LibraryManagementBo\obj\Debug\net6.0\LibraryManagementBo.pdb

@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AdoDotNetAndCUIApplication",
+    "\\AdoDotNetAndCUIApplication\\ADO.NetDemo",
+    "\\AdoDotNetAndCUIApplication\\DemoWebApi\\Controllers",
+    "\\AdoDotNetAndCUIApplication\\DemoWebApi\\Model",
+    "\\AdoDotNetAndCUIApplication\\Logfiles",
+    "\\AdoDotNetDemo",
+    "\\AdoDotNetDemo\\StudentManagementDao",
+    "\\AdoDotNetDemo\\StudentManagementDao\\StudentAdoDao"
   ],
+  "SelectedNode": "\\AdoDotNetDemo\\StudentManagementDao\\StudentAdoDao\\StudentDao.cs",
   "PreviewInSolutionExplorer": false
 }

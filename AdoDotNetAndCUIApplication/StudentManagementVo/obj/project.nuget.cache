@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mWehX/hS6LleDuq9XYx/m/2u78Ng3sbeAs7DQRTFRSQ2khAmv2iyVvcadryMtHiz8Equj+Kf9619Xnqscq92iw==",
+  "dgSpecHash": "MVEDnG0+2hKB4nF43+oOCXIBswQBuZw66gIb8/hQ1XX1TmsB0IF0TAzjO06x1d1uzdRULiFTUlId4Rl584M1uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\StudentManagementVo.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

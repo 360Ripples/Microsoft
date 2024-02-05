@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y1JafT9Hp/QxZDPyvSzZkCtd13a2pnBA7UNriq0IUn8dS56o7wshQfEqX3slLWV7kJ+QRUOTd33dvTwHtr30Rg==",
+  "dgSpecHash": "kiJaiY7F3Kd+qBOuMNM8v0W5rCTiZlP/nyq7A7kraL2LYr10c+J6xj5l9xIcHx/JpUbZzBwDUJkGoiQnZQuT9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\CommonUtility\\CommonUtility.csproj",
+  "projectFilePath": "D:\\Repository\\AdoDotNetAndCUIApplication\\CommonUtility\\CommonUtility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
@@ -25,10 +25,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -18,8 +18,8 @@ namespace DBFirstEntityFramework
                 var library = new Library();
 
 
-                library.Id = 8;
-                library.Name = "Avs";
+                library.Id = 10;
+                library.Name = "Global Library";
                 library.City = "Chennai";
 
 
@@ -73,6 +73,7 @@ namespace DBFirstEntityFramework
                 var library = (from l in context.Libraries
                                where l.City == "Chennai" || l.Name.Length == 4
                                select l).ToList();
+              
                 foreach (var l in library)
                 {
                     Console.WriteLine($"Library Name: {l.Name},City: {l.City}");
@@ -83,5 +84,54 @@ namespace DBFirstEntityFramework
 
             }
         }
+        public void FetchAllUsingLazyLoading()
+        {
+            using (SampleContext context = new SampleContext())
+            {
+                // Lazy loading will occur when accessing the Books property
+                var libraries = context.Libraries.ToList();
+
+                foreach (var library in libraries)
+                {
+                    Console.WriteLine($"Library Name: {library.Name} {library.City}");
+
+                    // Lazy loading will occur here when accessing the Books property
+                    foreach (var books in library.Books)
+                    {
+                        Console.WriteLine($"\tBook ID: {books.Bookid} Book Name: {books.Bookname} Author: {books.Author}");
+                    }
+                }
+
+                Console.Read();
+            }
+
+        }
+        public void InsertLibraryWithBooks()
+        {
+            using (SampleContext context = new SampleContext())
+            {
+                // Create a new Library and associate books with it
+                Library l = new Library
+                {
+                    Id = 11,
+                    Name = "SSS",
+                    City = "Delhi",
+                    Books = new List<Book>
+            {
+                new Book { Bookid=11 ,Bookname = "Python", Author = "Raji" },
+                new Book { Bookid=12 ,Bookname = "HTML", Author = "Kalai" },
+                
+            }
+                };
+
+                // Add the newLibrary and its associated books to the context
+                context.Libraries.Add(l);
+
+                // Save changes to the database
+                context.SaveChanges();
+            }
+        }
+        
+
     }
 }

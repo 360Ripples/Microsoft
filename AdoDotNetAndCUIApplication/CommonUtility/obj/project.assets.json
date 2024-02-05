@@ -806,11 +806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\CommonUtility\\CommonUtility.csproj",
+      "projectUniqueName": "D:\\Repository\\AdoDotNetAndCUIApplication\\CommonUtility\\CommonUtility.csproj",
       "projectName": "CommonUtility",
-      "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\CommonUtility\\CommonUtility.csproj",
+      "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\CommonUtility\\CommonUtility.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\CommonUtility\\obj\\",
+      "outputPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\CommonUtility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -867,20 +867,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

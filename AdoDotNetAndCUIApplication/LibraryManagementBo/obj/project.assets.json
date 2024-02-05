@@ -8322,7 +8322,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj",
+      "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj",
       "LibraryManagementDao >= 1.0.0",
       "Serilog.AspNetCore >= 6.0.1"
     ]
@@ -8333,11 +8333,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementBo\\LibraryManagementBo.csproj",
+      "projectUniqueName": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementBo\\LibraryManagementBo.csproj",
       "projectName": "LibraryManagementBo",
-      "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementBo\\LibraryManagementBo.csproj",
+      "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementBo\\LibraryManagementBo.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementBo\\obj\\",
+      "outputPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementBo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8354,11 +8354,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementDao\\LibraryManagementDao.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementDao\\LibraryManagementDao.csproj"
+            "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementDao\\LibraryManagementDao.csproj": {
+              "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementDao\\LibraryManagementDao.csproj"
             },
-            "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj"
+            "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj": {
+              "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj"
             }
           }
         }
@@ -8402,8 +8402,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj",
+      "message": "Unable to find project 'D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Repository\\AdoDotNetAndCUIApplication\\LibraryManagementSystemMiddleTier\\LibraryManagementSystemMiddleTier.csproj",
       "targetGraphs": [
         "net6.0"
       ]

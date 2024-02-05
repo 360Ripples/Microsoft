@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\ADO.NetDemo\\ADODotNetDemo.csproj": {}
+    "D:\\Repository\\AdoDotNetAndCUIApplication\\ADO.NetDemo\\ADODotNetDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\ADO.NetDemo\\ADODotNetDemo.csproj": {
+    "D:\\Repository\\AdoDotNetAndCUIApplication\\ADO.NetDemo\\ADODotNetDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\ADO.NetDemo\\ADODotNetDemo.csproj",
+        "projectUniqueName": "D:\\Repository\\AdoDotNetAndCUIApplication\\ADO.NetDemo\\ADODotNetDemo.csproj",
         "projectName": "ADODotNetDemo",
-        "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\ADO.NetDemo\\ADODotNetDemo.csproj",
+        "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\ADO.NetDemo\\ADODotNetDemo.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\ADO.NetDemo\\obj\\",
+        "outputPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\ADO.NetDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementDao\\StudentManagementDao.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementDao\\StudentManagementDao.csproj"
+              "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementDao\\StudentManagementDao.csproj": {
+                "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementDao\\StudentManagementDao.csproj"
               },
-              "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj"
+              "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\StudentManagementVo.csproj": {
+                "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\StudentManagementVo.csproj"
               }
             }
           }
@@ -63,24 +63,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -90,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementDao\\StudentManagementDao.csproj": {
+    "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementDao\\StudentManagementDao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementDao\\StudentManagementDao.csproj",
+        "projectUniqueName": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementDao\\StudentManagementDao.csproj",
         "projectName": "StudentManagementDao",
-        "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementDao\\StudentManagementDao.csproj",
+        "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementDao\\StudentManagementDao.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementDao\\obj\\",
+        "outputPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementDao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj"
+              "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\StudentManagementVo.csproj": {
+                "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\StudentManagementVo.csproj"
               }
             }
           }
@@ -146,20 +128,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -169,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj": {
+    "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\StudentManagementVo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj",
+        "projectUniqueName": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\StudentManagementVo.csproj",
         "projectName": "StudentManagementVo",
-        "projectPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\StudentManagementVo.csproj",
+        "projectPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\StudentManagementVo.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Downloads\\LibraryManagementSystem\\StudentManagementVo\\obj\\",
+        "outputPath": "D:\\Repository\\AdoDotNetAndCUIApplication\\StudentManagementVo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -215,20 +183,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

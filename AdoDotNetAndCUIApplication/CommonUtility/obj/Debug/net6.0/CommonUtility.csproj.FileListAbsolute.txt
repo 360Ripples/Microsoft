@@ -10,3 +10,16 @@ C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.
 C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\refint\CommonUtility.dll
 C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\CommonUtility.pdb
 C:\Users\DELL\source\repos\LibraryManagementSystem\CommonUtility\obj\Debug\net6.0\ref\CommonUtility.dll
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\bin\Debug\net6.0\CommonUtility.deps.json
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\bin\Debug\net6.0\CommonUtility.dll
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\bin\Debug\net6.0\CommonUtility.pdb
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\CommonUtility.csproj.AssemblyReference.cache
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\CommonUtility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\CommonUtility.AssemblyInfoInputs.cache
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\CommonUtility.AssemblyInfo.cs
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\CommonUtility.csproj.CoreCompileInputs.cache
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\CommonUtility.sourcelink.json
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\CommonUtility.dll
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\refint\CommonUtility.dll
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\CommonUtility.pdb
+D:\Repository\AdoDotNetAndCUIApplication\CommonUtility\obj\Debug\net6.0\ref\CommonUtility.dll

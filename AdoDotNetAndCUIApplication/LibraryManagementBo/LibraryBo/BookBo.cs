@@ -82,23 +82,13 @@ namespace LibraryManagementBo.LibraryBo
 
             }
 
-            return flag;
+            return flag;//true
 
         }
         public BookVo GetBook(int id)
         {
             BookVo vo = new BookVo();
-
-            try
-            {
-                vo = bookDao.FetchBook(id);
-            }
-
-            catch (BookNotFoundException e)
-            {
-                throw new BookNotFoundException(e.Message);
-            }
-
+            vo = bookDao.FetchBook(id);
             return vo;
 
 
@@ -107,19 +97,7 @@ namespace LibraryManagementBo.LibraryBo
         {
 
             List<BookVo> list = new List<BookVo>();
-
-            try
-            {
-
-                list = bookDao.FetchBooks();
-            }
-
-            catch (BookNotFoundException e)
-            {
-
-                throw new BookNotFoundException(e.Message);
-            }
-
+            list = bookDao.FetchBooks();
             return list;
 
         }

@@ -18,7 +18,7 @@ namespace LibraryManagementDao.LibraryAdoDao
 
     public class BookDao : IBookDao
     {
-        BookVo vo = new BookVo();
+        
         public bool AddBook(BookVo vo)
         {
             using (SqlConnection con = new SqlConnection(LibraryManagementSystemDaoConstants.LibraryManagementSystem_DB_URL)) //Try with resources   it implements
@@ -53,6 +53,7 @@ namespace LibraryManagementDao.LibraryAdoDao
         }
         public BookVo FetchBook(int id)
         {
+            BookVo vo = new BookVo();
             using (SqlConnection con = new SqlConnection(LibraryManagementSystemDaoConstants.LibraryManagementSystem_DB_URL))
 
             {
